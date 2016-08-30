@@ -22,6 +22,7 @@ var LinkButton=React.createClass({
             theme:"default",
             width:"25%",
             backgroundColor:"#f6f6f6",
+            to:"/",
         }
     },
     getInitialState(){
