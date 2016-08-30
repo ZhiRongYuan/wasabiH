@@ -19,7 +19,7 @@ class ButtonModel
         this.className=null;
         this.style=null;
         this.draggable=false;
-
+        this.to=null;
     }
 }
 module .exports=ButtonModel;
