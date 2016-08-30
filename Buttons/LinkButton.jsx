@@ -1,5 +1,5 @@
 require("../sass/Buttons/LinkButton.css");
-require("../sass/Buttons/icon.scss");
+require("../sass/Buttons/icon.css");
 var React =require("react");
 let Link=require("react-router").Link;
 var LinkButton=React.createClass({

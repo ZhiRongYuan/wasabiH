@@ -1,9 +1,10 @@
+@import url("../base.css");
 footer {
     background-color: #262F3D;
 }
 footer {
     bottom: 0;
-    height: 51px;
+    height: 0.68rem;
 }
 header, footer, .header-secondary {
     position: absolute;

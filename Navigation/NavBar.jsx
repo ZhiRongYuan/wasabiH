@@ -4,7 +4,7 @@ var LinkButton=require('../Buttons/LinkButton.jsx');
 var NavBar=React.createClass({
     propTypes:{
         buttons:React.PropTypes.array.isRequired,//
-        buttonClick:React.PropTypes.func.isRequired,//单击触发事件
+        buttonClick:React.PropTypes.func,//单击触发事件
         style:React.PropTypes.object,//style 样式
         background:React.PropTypes.string,//背景颜色
     },
