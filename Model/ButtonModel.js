@@ -5,7 +5,7 @@ class ButtonModel
         this.name=name;
         this.title=title;
         this.active=active,
-        this.disabled=disabled;
+            this.disabled=disabled;
         this.iconCls=iconCls;
         this.iconAlign=iconAlign;
         this.href=href;

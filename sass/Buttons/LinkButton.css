@@ -1,6 +1,7 @@
 @import url("../base.css");
 body{ padding-bottom:0.96rem;}
 .wasabiH-linkbutton{
+    border-top: 1px solid rgba(0,0,0,0.3);
     height: 1.4rem;
     padding-top: 0.186666666rem;
     text-align: center;
@@ -17,10 +18,10 @@ body{ padding-bottom:0.96rem;}
     z-index: 99999;
 }
 .wasabiH-icon{
-    width: 0.64rem;
-    height:0.64rem;
+    width: 0.65rem;
+    height:0.65rem;
     display: inline-block;
-    background-size: 0.64rem 0.64rem;
+    background-size: 0.65rem 0.65rem;
     vertical-align: bottom;
 }
 .wasabiH-title{

@@ -57,11 +57,11 @@ var LinkButton=React.createClass({
     },
     render(){
         return(
-                <div className={"wasabiH-linkbutton "+this.props.theme} style={this.style()} name={this.props.name} onClick={this.clickHandle}>
-                    <i className={"wasabiH-icon "+this.props.iconCls+" "+(this.state.active==true?"active ":"")}></i>
-                    <div className={"wasabiH-title "+(this.state.active==true?"active ":"")}>{this.state.title}</div>
-                    <Link to={this.state.to?this.state.to:"/"} className="Link"></Link>
-                </div>
+            <div className={"wasabiH-linkbutton "+this.props.theme} style={this.style()} name={this.props.name} onClick={this.clickHandle}>
+                <i className={"wasabiH-icon "+this.props.iconCls+" "+(this.state.active==true?"active ":"")}></i>
+                <div className={"wasabiH-title "+(this.state.active==true?"active ":"")}>{this.state.title}</div>
+                <Link to={this.state.to?this.state.to:"/"} className="Link"></Link>
+            </div>
         )
     }
 });
